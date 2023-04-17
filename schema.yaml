@@ -109,7 +109,7 @@
       required: true
       relationship: null
 - description: null
-  label: "florida"
+  label: "Florida"
   name: "florida"
   sort: 1
   listed: true
@@ -219,7 +219,7 @@
       required: true
       relationship: null
 - description: null
-  label: "florida Post"
+  label: "Florida Post"
   name: "florida_post"
   sort: 1
   listed: true
