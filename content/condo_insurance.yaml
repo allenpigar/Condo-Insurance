@@ -1,0 +1,29 @@
+- id: "_index"
+  web:
+    metaDescription: "Condo insurance, also called HO6 insurance, protects the parts of your condo your HOA's insurance doesn’t cover. ✓ Get more details & request a quote!"
+    metaTitle: "Condo Insurance Coverage | Get an HO6 Quote"
+    metaKeywords: null
+    metaLinkText: "Condo Insurance"
+    pathPart: "condo-insurance"
+    path: "/condo-insurance/"
+    parent: "/"
+    sitemapPriority: -2
+    canonicalTagMode: 1
+    canonicalQueryParamWhitelist: null
+    canonicalTagCustomValue: null
+  meta:
+    sort: null
+    listed: true
+  data:
+    sub_text: "Condo insurance, also called HO6 insurance, covers your unit’s interior from the walls in, your personal property, and more."
+    header_text: "Condo Insurance"
+    sub_header: "Condo insurance protects the parts of your home that your HOA's master insurance policy doesn't cover, such as your unit's interior, appliances, fixtures, and belongings. It also covers your personal liability."
+    featured_image: "3-f8947e6-cz4r1c"
+    is_feature_clipped: null
+    featured_image_alt: "A row of brightly colored town homes"
+    featured_video: null
+    schemamarkup: "<script type=\\\"application/ld+json\\\">\\n{\\n  \\\"@context\\\": \\\"https://schema.org\\\",\\n  \\\"@type\\\": \\\"FAQPage\\\",\\n  \\\"mainEntity\\\": [{\\n    \\\"@type\\\": \\\"Question\\\",\\n    \\\"name\\\": \\\"What insurance do you need for a condo?\\\",\\n    \\\"acceptedAnswer\\\": {\\n      \\\"@type\\\": \\\"Answer\\\",\\n      \\\"text\\\": \\\"Condo insurance, also called an HO6 policy, complements your condo association's master insurance policy by insuring your unit's interior, appliances, fixtures, your personal liability, and more.\\\"\\n    }\\n  }, {\\n    \\\"@type\\\": \\\"Question\\\",\\n    \\\"name\\\": \\\"Do you need homeowners insurance with a condo?\\\",\\n    \\\"acceptedAnswer\\\": {\\n      \\\"@type\\\": \\\"Answer\\\",\\n      \\\"text\\\": \\\"You need a special type of homeowners insurance policy called condo insurance or HO6. It covers the parts of your condo that the HOA's master policy doesn't.\\\"\\n    }\\n  }, {\\n    \\\"@type\\\": \\\"Question\\\",\\n    \\\"name\\\": \\\"What is not covered in condo insurance?\\\",\\n    \\\"acceptedAnswer\\\": {\\n      \\\"@type\\\": \\\"Answer\\\",\\n      \\\"text\\\": \\\"Condo insurance doesn't cover the condo building's exterior, other structures, or common property. Your condo association's master insurance policy covers those.\\\"\\n    }\\n  }]\\n}\\n</script>"
+    jump_nav: null
+    show_related_posts: null
+    related_posts: "/glossary/ho6-policy,/condo-insurance/florida,/condo-insurance-vs-homeowners-insurance-1"
+    body: ""
