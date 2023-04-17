@@ -115,7 +115,7 @@
   listed: true
   hasRoute: true
   showAsTable: false
-  parent: "condo-insurance"
+  parent: "condo_insurance"
   fields:
     - name: "sub_text"
       label: "List Summary"
@@ -335,7 +335,7 @@
   listed: true
   hasRoute: true
   showAsTable: true
-  parent: "condo-insurance"
+  parent: "condo_insurance"
   fields:
     - name: "sub_text"
       label: "List Summary"
