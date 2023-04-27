@@ -1,6 +1,6 @@
 - description: null
   label: "Condo Insurance"
-  name: "condo_insurance"
+  name: "condo-insurance"
   sort: 1
   listed: true
   hasRoute: true
@@ -24,7 +24,7 @@
     - name: "sub_header"
       label: "Sub Heading"
       description: null
-      datatype: "textarea"
+      datatype: "text"
       sort: 1
       required: true
       relationship: null
@@ -74,12 +74,10 @@
     - name: "jump_nav"
       label: "Jump Nav"
       description: null
-      datatype: "one_to_many"
+      datatype: "wysiwyg_basic"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
     - name: "show_related_posts"
       label: "Show Related Posts"
       description: null
@@ -92,125 +90,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
-    - name: "body"
-      label: "Body"
-      description: null
-      datatype: "wysiwyg_basic"
+      datatype: "internal_link"
       sort: 1
       required: true
       relationship: null
-- description: null
-  label: "Florida"
-  name: "florida"
-  sort: 1
-  listed: true
-  hasRoute: true
-  showAsTable: false
-  parent: "condo_insurance"
-  fields:
-    - name: "sub_text"
-      label: "List Summary"
+    - name: "related_posts_2"
+      label: "Related Posts 2"
       description: null
-      datatype: "wysiwyg_basic"
+      datatype: "internal_link"
       sort: 1
       required: true
       relationship: null
-    - name: "header_text"
-      label: "Heading"
+    - name: "related_posts_3"
+      label: "Related Posts 3"
       description: null
-      datatype: "text"
+      datatype: "internal_link"
       sort: 1
       required: true
       relationship: null
-    - name: "sub_header"
-      label: "Sub Heading"
-      description: null
-      datatype: "textarea"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_image"
-      label: "Featured Image"
-      description: null
-      datatype: "images"
-      sort: 1
-      required: null
-      relationship: null
-      settings:
-        limit: 1
-        list: false
-    - name: "is_feature_clipped"
-      label: "Clip Featured Image"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "featured_image_alt"
-      label: "Featured Image Alt Text"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "featured_video"
-      label: "Featured Video"
-      description: null
-      datatype: "text"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "schemamarkup"
-      label: "Schema Markup"
-      description: null
-      datatype: "wysiwyg_basic"
-      sort: 1
-      required: true
-      relationship: null
-    - name: "jump_nav"
-      label: "Jump Nav"
-      description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
-    - name: "show_related_posts"
-      label: "Show Related Posts"
-      description: null
-      datatype: "yes_no"
-      sort: 1
-      required: true
-      relationship: null
-      settings:
-        list: true
-        options:
-          0: "No"
-          1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
-      description: null
-      datatype: "one_to_many"
-      sort: 1
-      required: false
-      relationship: null
-      settings:
-        list: true
     - name: "body"
       label: "Body"
       description: null
@@ -244,7 +144,7 @@
     - name: "sub_header"
       label: "Sub Heading"
       description: null
-      datatype: "textarea"
+      datatype: "text"
       sort: 1
       required: true
       relationship: null
@@ -294,12 +194,10 @@
     - name: "jump_nav"
       label: "Jump Nav"
       description: null
-      datatype: "one_to_many"
+      datatype: "wysiwyg_basic"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
     - name: "show_related_posts"
       label: "Show Related Posts"
       description: null
@@ -312,15 +210,27 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
@@ -329,13 +239,13 @@
       required: true
       relationship: null
 - description: null
-  label: "Condo Insurance Post"
-  name: "condo_insurance_post"
+  label: "Florida"
+  name: "florida"
   sort: 1
   listed: true
   hasRoute: true
-  showAsTable: true
-  parent: "condo_insurance"
+  showAsTable: false
+  parent: "condo-insurance"
   fields:
     - name: "sub_text"
       label: "List Summary"
@@ -354,7 +264,7 @@
     - name: "sub_header"
       label: "Sub Heading"
       description: null
-      datatype: "textarea"
+      datatype: "text"
       sort: 1
       required: true
       relationship: null
@@ -404,12 +314,10 @@
     - name: "jump_nav"
       label: "Jump Nav"
       description: null
-      datatype: "one_to_many"
+      datatype: "wysiwyg_basic"
       sort: 1
-      required: false
+      required: true
       relationship: null
-      settings:
-        list: true
     - name: "show_related_posts"
       label: "Show Related Posts"
       description: null
@@ -422,15 +330,147 @@
         options:
           0: "No"
           1: "Yes"
-    - name: "related_posts"
-      label: "Related Posts"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
       description: null
-      datatype: "one_to_many"
+      datatype: "internal_link"
       sort: 1
-      required: false
+      required: true
+      relationship: null
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "body"
+      label: "Body"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+- description: null
+  label: "Condo Insurance Post"
+  name: "condo_insurance_post"
+  sort: 1
+  listed: true
+  hasRoute: true
+  showAsTable: true
+  parent: "condo-insurance"
+  fields:
+    - name: "sub_text"
+      label: "List Summary"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "header_text"
+      label: "Heading"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "sub_header"
+      label: "Sub Heading"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "featured_image"
+      label: "Featured Image"
+      description: null
+      datatype: "images"
+      sort: 1
+      required: null
+      relationship: null
+      settings:
+        limit: 1
+        list: false
+    - name: "is_feature_clipped"
+      label: "Clip Featured Image"
+      description: null
+      datatype: "yes_no"
+      sort: 1
+      required: true
       relationship: null
       settings:
         list: true
+        options:
+          0: "No"
+          1: "Yes"
+    - name: "featured_image_alt"
+      label: "Featured Image Alt Text"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "featured_video"
+      label: "Featured Video"
+      description: null
+      datatype: "text"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "schemamarkup"
+      label: "Schema Markup"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "jump_nav"
+      label: "Jump Nav"
+      description: null
+      datatype: "wysiwyg_basic"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "show_related_posts"
+      label: "Show Related Posts"
+      description: null
+      datatype: "yes_no"
+      sort: 1
+      required: true
+      relationship: null
+      settings:
+        list: true
+        options:
+          0: "No"
+          1: "Yes"
+    - name: "related_posts_1"
+      label: "Related Posts 1"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_2"
+      label: "Related Posts 2"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
+    - name: "related_posts_3"
+      label: "Related Posts 3"
+      description: null
+      datatype: "internal_link"
+      sort: 1
+      required: true
+      relationship: null
     - name: "body"
       label: "Body"
       description: null
