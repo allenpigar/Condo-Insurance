@@ -1,6 +1,6 @@
 - description: null
   label: "Condo Insurance"
-  name: "condo-insurance"
+  name: "condo_insurance"
   sort: 1
   listed: true
   hasRoute: true
@@ -245,7 +245,7 @@
   listed: true
   hasRoute: true
   showAsTable: false
-  parent: "condo-insurance"
+  parent: "condo_insurance"
   fields:
     - name: "sub_text"
       label: "List Summary"
@@ -365,7 +365,7 @@
   listed: true
   hasRoute: true
   showAsTable: true
-  parent: "condo-insurance"
+  parent: "condo_insurance"
   fields:
     - name: "sub_text"
       label: "List Summary"
