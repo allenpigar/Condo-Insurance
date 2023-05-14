@@ -1,0 +1,1 @@
+{{ include general_content_template }}
